@@ -14,31 +14,6 @@ Documentação com Swagger: Geração automática da documentação da API.
 Estrutura do Repositório
 O repositório está organizado da seguinte maneira:
 
-css
-Copiar código
-.
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── projeto
-│   │   │           ├── controller
-│   │   │           ├── exception
-│   │   │           ├── model/entity
-│   │   │           ├── repository
-│   │   │           ├── service
-│   │   │           └── ProjetoApplication.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       └── data.sql
-│   └── test
-│       └── java
-│           └── com
-│               └── projeto
-├── .gitignore
-├── README.md
-└── pom.xml
-
 src/main/java/com/projeto: Contém o código-fonte da aplicação.
 
 controller: Controladores REST que expõem os endpoints da API.
